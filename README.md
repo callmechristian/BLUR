@@ -1,5 +1,5 @@
-# ORANGE
- BLUR theme for spicetify. Very blurry.
+# BLUR
+ BLUR theme for spicetify. Very blurry. Also removed shows and podcasts...
  ![Preview image](/images/default.png)
 
 ## Installation
