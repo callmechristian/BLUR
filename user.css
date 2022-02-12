@@ -1,5 +1,6 @@
 :root {
     --player-bar-height: 105px;
+    --spice-button-highlight: #f5bcd8;
 }
 
 .main-rootlist-rootlistDividerGradient {
@@ -202,6 +203,13 @@ section[aria-label="Shows to try"] {
 	opacity: 0!important;
 }
 
+/* remove shows you might like */
+section[aria-label="Shows you might like"] {
+	display: none!important;
+	height: 0!important;
+	opacity: 0!important;
+}
+
 /* card backgrounds */
 .main-card-card {
 	background: hsla(0,0%,0%,0.5)!important;
@@ -263,4 +271,9 @@ section[aria-label="Shows to try"] {
 
 .main-contextMenu-disabled {
   color: darkgray!important;
+}
+
+/* update main card hover button */
+div.main-card-PlayButtonContainer button:hover div {
+    background-color: var(--spice-button-highlight)!important;
 }
