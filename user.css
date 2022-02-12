@@ -230,7 +230,7 @@ section[aria-label="Shows you might like"] {
 }
 
 .main-home-content section:first-child div:nth-child(2) div div > div:nth-child(2) {
-    background-color: hsla(0,0%,0%,00);
+    background-color: hsla(0,0%,0%,0);
     backdrop-filter: blur(8px);
     border-radius: 0px 8px 8px 0px;
 }
